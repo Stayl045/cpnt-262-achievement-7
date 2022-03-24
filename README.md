@@ -1,19 +1,13 @@
-# cpnt-262-achievement-7
+# CPNT-262-Achievement-7- Stephan Taylor
 
-## Project setup
-```
-npm install
-```
+## Plan
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- My plan thus far is to take some of the components that I liked from the hackathon that that class did on March 23rd. I really liked what me and Bryan did with it and I feel confident I can use some of the content for achievement 7
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- I will also attempt to use props in greater depth by using Ashs examples vue project as inspiration
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Then create a 3 card reusable components that we did not create from the hackathon day.
+
+## Struggles with this Achievement
+
+## Attributions
