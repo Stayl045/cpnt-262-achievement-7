@@ -10,4 +10,7 @@
 
 ## Struggles with this Achievement
 
+- I ran into issue installing vue via `npm install -D tailwindcss` where css styling wouldn't render for whatever reason.
+  - To resolve this I instead used `vue add tailwind` and followed the direction. This seems to have resolved the issue.
+
 ## Attributions
