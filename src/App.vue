@@ -1,6 +1,8 @@
 <template>
-  <TheBaseHeader />
-  <BaseCard />
+  <article>
+    <TheBaseHeader />
+    <BaseCard />
+  </article>
 </template>
 
 <script setup>

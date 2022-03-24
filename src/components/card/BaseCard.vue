@@ -1,7 +1,9 @@
 <template>
-  <BaseCardTitle />
-  <BaseCardImage />
-  <BaseCardText />
+  <Article>
+    <BaseCardTitle />
+    <BaseCardImage />
+    <BaseCardText />
+  </Article>
 </template>
 
 <script setup>
