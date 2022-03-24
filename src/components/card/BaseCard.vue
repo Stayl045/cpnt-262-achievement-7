@@ -18,8 +18,8 @@
 
 <style scoped>
   .backgroundImage {
-    height: 50vh;
-    width: 50vw;
+    height: 35vh;
+    width: 25vw;
     background-size: cover;
     background-image: url(../../assets/images/howl-image.jpg);
   }
