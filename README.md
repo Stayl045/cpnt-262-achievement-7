@@ -14,3 +14,7 @@
   - To resolve this I instead used `vue add tailwind` and followed the direction. This seems to have resolved the issue.
 
 ## Attributions
+
+- [wiki](<https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)>)
+
+- [studioGhibli](https://www.ghibli.jp/works/howl/#frame&gid=1&pid=40)
