@@ -6,6 +6,6 @@
 </template>
 
 <script setup>
-  import TheNavBar from "../ui/TheNavBar.vue";
-  import TheLogo from "../layout/TheLogo.vue";
+  import TheNavBar from "@/components/ui/TheNavBar.vue";
+  import TheLogo from "@/components/layout/TheLogo.vue";
 </script>

@@ -1,8 +1,8 @@
 <template>
   <Article
-    class="backgroundImage grid text-center content-center m-5 gap-2 rounded-md"
+    class="backgroundImage grid text-center content-center gap-2 rounded-md"
   >
-    <base-card-title class="mt-20">Howls Moving Castle</base-card-title>
+    <base-card-title>Howls Moving Castle</base-card-title>
     <BaseCardImage />
     <BaseCardText />
     <BaseCardButton />
