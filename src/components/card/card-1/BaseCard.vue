@@ -10,10 +10,10 @@
 </template>
 
 <script setup>
-  import BaseCardTitle from "./BaseCardTitle.vue";
-  import BaseCardImage from "./BaseCardImage.vue";
-  import BaseCardText from "./BaseCardText.vue";
-  import BaseCardButton from "./BaseCardButton.vue";
+  import BaseCardTitle from "@/components/card/card-1/BaseCardTitle.vue";
+  import BaseCardImage from "@/components/card/card-1/BaseCardImage.vue";
+  import BaseCardText from "@/components/card/card-1/BaseCardText.vue";
+  import BaseCardButton from "@/components/card/card-1/BaseCardButton.vue";
 </script>
 
 <style scoped>
@@ -21,6 +21,6 @@
     height: 35vh;
     width: 25vw;
     background-size: cover;
-    background-image: url(../../assets/images/howl-image.jpg);
+    background-image: url(../../../assets//images/howl-image.jpg);
   }
 </style>

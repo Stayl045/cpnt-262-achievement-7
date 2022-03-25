@@ -12,6 +12,7 @@
 
 - I ran into issue installing vue via `npm install -D tailwindcss` where css styling wouldn't render for whatever reason.
   - To resolve this I instead used `vue add tailwind` and followed the direction. This seems to have resolved the issue.
+- turns out I created the first card the wrong way without calling using JaveScript. I will attempt to follow the example on `vue-demo-2`
 
 ## Attributions
 
