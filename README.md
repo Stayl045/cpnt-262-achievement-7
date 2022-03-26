@@ -1,5 +1,10 @@
 # CPNT-262-Achievement-7- Stephan Taylor
 
+## Thoughts on this Achievement
+
+- Overall, I again loved this achievement as it really let me explore aspects of component usage and styling with tailwindcss. I was able to learn a lot throughout this process that I will be using going forward into this profession.
+- I was also able to create some reusable card components that i'll likely be looking to replicate going forward, although, with a more flare!
+
 ## Plan
 
 - My plan thus far is to take some of the components that I liked from the hackathon that that class did on March 23rd. I really liked what me and Bryan did with it and I feel confident I can use some of the content for achievement 7
@@ -8,7 +13,11 @@
 
 - Then create a 3 card reusable components that we did not create from the hackathon day.
 
-- For tomorrow March 26th, I would like to get the 3 object cards background image to fill the whole space rather then just the bottom.
+- For tomorrow March 25th, I would like to get the 3 object cards background image to fill the whole space rather then just the bottom.
+
+## March 25th
+
+- Was able to follow through with yesterday's plan and create 3 functioning cards. However, I was not able to figure out how to make the array images into background images. I would really like to know if you don't mind teaching us how!
 
 ## Struggles with this Achievement
 
