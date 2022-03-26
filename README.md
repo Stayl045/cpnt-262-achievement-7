@@ -28,7 +28,7 @@
   - ![screncap](https://github.com/Stayl045/cpnt-262-achievement-7/blob/b8f4477ab9389ef2b7f792220ac0ede0782658a1/run-serve-problem.png)
   - At this point, I have no idea how to resolve this. I will play around with the components more and try to locate the issue
 - Resolved
-  - I resolved this issue by using backgroundImage in the object array rather then a standard img.
+  - I was able to make background images of card 2s by binding them to the baseCard and using moustache syntax to in inject the images from the array
 
 ## Attributions
 
