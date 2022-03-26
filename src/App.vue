@@ -1,15 +1,19 @@
 <template>
   <article>
     <TheBaseHeader />
-    <section class="flex flex-wrap justify-center gap-16 bg-contain mt-16">
+    <section
+      class="flex flex-wrap justify-center text-center justify-items-center gap-20 bg-cover mt-16 rounded-md mb-10"
+    >
       <BaseCard />
 
-      <TheBaseCard v-for="card in cards" :key="card.id">
+      <TheBaseCard v-for="card in cards" :key="card.id" class="rounded-md">
+        <TheCardImage :path="card.image.backgroundImage" />
         <TheCardTitle>{{ card.title }}</TheCardTitle>
         <TheCardDescription>{{ card.description }}</TheCardDescription>
-        <TheCardImage :path="card.image.backgroundImage" />
+        <BaseCardButton />
       </TheBaseCard>
     </section>
+    <TheFooter />
   </article>
 </template>
 
@@ -21,6 +25,8 @@
   import TheCardTitle from "./components/card/card-2/TheCardTitle.vue";
   import TheCardDescription from "./components/card/card-2/TheCardDescription.vue";
   import TheCardImage from "./components/card/card-2/TheCardImage.vue";
+  import BaseCardButton from "./components/utilities/BaseCardButton.vue";
+  import TheFooter from "./components/utilities/TheFooter.vue";
 
   const cards = [
     {
@@ -31,7 +37,7 @@
     {
       title: "Ponyo",
       description:
-        "The daughter of a masterful wizard and a sea goddess, Ponyo uses her father's magic to transform herself into a young girl",
+        "Ponyo uses her father's magic to transform herself into a young girl",
       image: { backgroundImage: "https://www.ghibli.jp/gallery/ponyo009.jpg" },
     },
     {

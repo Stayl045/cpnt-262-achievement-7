@@ -1,7 +1,11 @@
 <template>
-  <div class="flex items-center justify-self-auto ml-3 absolute text-xl">
+  <div class="flex ml-3 absolute text-xl">
     <a href="#">
-      <img src="#" alt="Studio Ghibli Films" class="w-40" />
+      <img
+        src="#"
+        alt="Studio Ghibli Films"
+        class="w-50 text-2xl text-white font-bold"
+      />
     </a>
   </div>
 </template>
