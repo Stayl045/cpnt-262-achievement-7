@@ -6,8 +6,13 @@
     >
       <BaseCard />
 
-      <TheBaseCard v-for="card in cards" :key="card.id" class="rounded-md">
-        <TheCardImage :path="card.image.backgroundImage" />
+      <TheBaseCard
+        v-for="card in cards"
+        :key="card.id"
+        class="rounded-md"
+        :style="{ 'background-image': `url(${card.image.backgroundImage})` }"
+      >
+        <!-- <TheCardImage :path="card.image.backgroundImage" /> -->
         <TheCardTitle>{{ card.title }}</TheCardTitle>
         <TheCardDescription>{{ card.description }}</TheCardDescription>
         <BaseCardButton />
