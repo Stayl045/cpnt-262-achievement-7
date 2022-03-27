@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-  import { computed } from "vue";
+  import { computed, reactive } from "vue";
   import TheBaseHeader from "./components/layout/TheBaseHeader.vue";
   import BaseCard from "./components/card/card-1/BaseCard.vue";
   import TheBaseCard from "./components/card/card-2/TheBaseCard.vue";
@@ -53,4 +53,8 @@
       },
     },
   ];
+
+  // const width = reactive({
+  //   minWidth: "25vw",
+  // });
 </script>
