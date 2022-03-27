@@ -2,7 +2,7 @@
   <img
     :src="props.path"
     :alt="props.altText"
-    class="rounded-t-lg shadow-lg shadow-slate-300 h-56"
+    class="grid rounded-t-lg shadow-lg shadow-slate-300 h-56"
   />
 </template>
 

@@ -1,12 +1,12 @@
 <template>
-  <Article
-    class="backgroundImage grid text-center content-center gap-2 rounded-md shadow-lg shadow-slate-400"
+  <article
+    class="backgroundImage grid text-center content-center rounded-md shadow-lg shadow-slate-400"
   >
     <base-card-title>Howls Moving Castle</base-card-title>
     <BaseCardImage />
     <BaseCardText />
     <BaseCardButton />
-  </Article>
+  </article>
 </template>
 
 <script setup>
@@ -19,7 +19,7 @@
 <style scoped>
   .backgroundImage {
     height: 60vh;
-    width: 25vw;
+    min-width: 25vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

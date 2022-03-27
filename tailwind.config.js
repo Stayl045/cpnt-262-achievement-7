@@ -4,6 +4,7 @@ module.exports = {
   darkMode: "media", // or 'class'
   theme: {
     screens: {
+      xs: "300px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
@@ -421,6 +422,7 @@ module.exports = {
       min: "min-content",
       max: "max-content",
       fr: "minmax(0, 1fr)",
+      frTwo: "minmax(0, 2fr)",
     },
     gridColumn: {
       auto: "auto",
@@ -632,6 +634,7 @@ module.exports = {
     maxWidth: ({ theme, breakpoints }) => ({
       none: "none",
       0: "0rem",
+      25: "25vw",
       xs: "20rem",
       sm: "24rem",
       md: "28rem",
@@ -660,6 +663,7 @@ module.exports = {
     },
     minWidth: {
       0: "0px",
+      25: "25vw",
       full: "100%",
       min: "min-content",
       max: "max-content",
